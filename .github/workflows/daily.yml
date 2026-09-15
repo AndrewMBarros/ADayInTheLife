@@ -1,8 +1,8 @@
 name: Beatles Bot Diário
 on:
   schedule:
-    # Roda todo dia às 14:00 UTC (= 11:00 horário de Brasília, UTC-3)
-    - cron: "34 18 * * *"
+    # Roda todo dia às 18:34 UTC (= 15:34 horário de Brasília, UTC-3)
+    - cron: "47 18 * * *"
   workflow_dispatch: {}  # permite rodar manualmente pelo botão "Run workflow"
 
 jobs:
@@ -22,6 +22,6 @@ jobs:
 
       - name: Rodar o bot
         env:
-         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python beatles_bot.py
