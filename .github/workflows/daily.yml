@@ -1,9 +1,8 @@
 name: Beatles Bot Diário
-
 on:
   schedule:
-    # Roda todo dia às 13:53 UTC (= 08:00 horário de Brasília, UTC-3)
-    - cron: "0 11 * * *"
+    # Roda todo dia às 14:00 UTC (= 11:00 horário de Brasília, UTC-3)
+    - cron: "0 14 * * *"
   workflow_dispatch: {}  # permite rodar manualmente pelo botão "Run workflow"
 
 jobs:
