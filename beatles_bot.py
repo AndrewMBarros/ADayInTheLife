@@ -137,7 +137,7 @@ def montar_lista_completa():
 
 def enviar_mensagem_telegram(texto):
     """Envia uma mensagem de texto para o chat configurado."""
-    api_url = f"https://api.telegram.org/bot{8869715381:AAHOoaprOrw80WF36BzmtTbuz_TC-xJNUdM}/sendMessage"
+    api_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": texto,
