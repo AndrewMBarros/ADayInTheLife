@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 SITE_URL = "https://web.beatlesperu.com/"
 
 # Pegue com o @BotFather no Telegram (crie um bot e copie o token)
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8869715381:AAHOoaprOrw80WF36BzmtTbuz_TC-xJNUdM")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8869715381:AAHi0UMfXs5yBPNqN8vtViUkTlcvrKVH3xE")
 
 # ID do chat/canal/grupo para onde enviar as mensagens.
 # Para descobrir o seu chat_id, mande uma mensagem para o bot e acesse:
