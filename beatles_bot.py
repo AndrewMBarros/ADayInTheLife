@@ -27,7 +27,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8869715381:AAHi0UMfXs5yBPNqN8
 # ID do chat/canal/grupo para onde enviar as mensagens.
 # Para descobrir o seu chat_id, mande uma mensagem para o bot e acesse:
 # https://api.telegram.org/bot<TOKEN>/getUpdates
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-5493487994")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-1004490733318")
 
 HEADERS = {
     "User-Agent": (
